@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  margin: 40px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.app-title {
+  /*font-family: 'Abril Fatface', cursive;*/
+  font-family: 'Noto Serif', serif;
+  font-size: 100px;
+  background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+.card{
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.card:hover{
+  box-shadow: 1px 1px 14px #ff5aaa;
+  border: 1px solid rgb(255, 0, 85)
+}
+
+.person-image{
+  background-color: rgb(172, 172, 172);
+}
