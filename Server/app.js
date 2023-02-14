@@ -1,11 +1,11 @@
 import  express  from "express";
 import mongoose from "mongoose";
+import routes from './Routes/routes.js';
 
 const app = express()
 
-app.use("/api", (req,res)=>{
-    res.send("Welcome")
-})
+
+app.use('/api', routes)
 
 mongoose.set('strictQuery', true);
 
